@@ -1,5 +1,3 @@
-WhyJava8.java
- WhyJava8
 OopAnotherExample.java
  Addition
  Calculation
@@ -12,3 +10,7 @@ OopAndFpExamples.java
  CalculatorService
  FpCalculatorService
  OopAndFpExamples
+WhyJava8.java
+ WhyJava8
+FunctionalInterfaceExamples.java
+ FunctionalInterfaceExamples
