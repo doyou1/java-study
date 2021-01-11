@@ -16,8 +16,8 @@ public class OopAnotherExample {
 //        System.out.println(divisionResult);
 
 //      스트래티지 패턴
-        final CalculatorService2 calculatorService2 = new CalculatorService2(new Addition());
-        int additionResult = calculatorService2.calculate(1,1);
+        final CalculatorService2 calculatorService2 = new CalculatorService2(new Addition(), new Addition());
+        int additionResult = calculatorService2.calculate(1, 1);
         System.out.println(additionResult);
     }
 }
@@ -39,46 +39,60 @@ public class OopAnotherExample {
 //
 //}
 
-interface Calculation {
-    int calculate(int num1, int num2);
-}
-
-class Addition implements Calculation {
-    @Override
-    public int calculate(int num1, int num2) {
-        return num1 + num2;
-    }
-}
-
-class Subtraction implements Calculation {
-    @Override
-    public int calculate(int num1, int num2) {
-        return num1 - num2;
-    }
-}
-
-class Multiplication implements Calculation {
-    @Override
-    public int calculate(int num1, int num2) {
-        return num1 * num2;
-    }
-}
-
-class Division implements Calculation {
-    @Override
-    public int calculate(int num1, int num2) {
-        return num1 / num2;
-    }
-}
-
-class CalculatorService2 {
-    private final Calculation calculation;
-
-    public CalculatorService2(final Calculation calculation) {
-        this.calculation = calculation;
+    interface Calculation {
+        int calculate(int num1, int num2);
     }
 
-    public int calculate(int num1, int num2) {
-        return calculation.calculate(num1,num2);
+    class Addition implements Calculation {
+        @Override
+        public int calculate(int num1, int num2) {
+            return num1 + num2;
+        }
     }
-}
+
+    class Subtraction implements Calculation {
+        @Override
+        public int calculate(int num1, int num2) {
+            return num1 - num2;
+        }
+    }
+
+    class Multiplication implements Calculation {
+        @Override
+        public int calculate(int num1, int num2) {
+            return num1 * num2;
+        }
+    }
+
+    class Division implements Calculation {
+        @Override
+        public int calculate(int num1, int num2) {
+            return num1 / num2;
+        }
+    }
+
+    class CalculatorService2 {
+        private final Calculation calculation;
+        private final Calculation calculation2;
+
+        public CalculatorService2(final Calculation calculation, final Calculation calculation2) {
+            this.calculation = calculation;
+            this.calculation2 = calculation2;
+        }
+
+        public int calculate(int num1, int num2) {
+            if (num1 > 10 && num2 < num1) {
+                return calculation.calculate(num1, num2);
+            } else {
+                throw new IllegalArgumentException("Invalid input num1: " + num1 + ", num2: " + num2);
+            }
+        }
+
+        public int compute(int num1, int num2) {
+            if (num1 > 10 && num2 < num1) {
+                return calculation2.calculate(num1, num2);
+            } else {
+                throw new IllegalArgumentException("Invalid input num1: " + num1 + ", num2: " + num2);
+            }
+        }
+    }

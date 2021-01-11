@@ -46,4 +46,12 @@ public class CalculatorServiceTest {
 //        assertThat(actual).isEqualTo(2);
 //    }
 
+    @Test
+    public void testCalculation() throws Exception {
+        Calculation calculation = new Division();
+        final int actual = calculation.calculate(4, 2);
+
+        assertThat(actual).isEqualTo(2);
+    }
+
 }
