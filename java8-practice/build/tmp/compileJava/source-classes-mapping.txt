@@ -14,3 +14,6 @@ WhyJava8.java
  WhyJava8
 FunctionalInterfaceExamples.java
  FunctionalInterfaceExamples
+CustomFunctionalInterfaceExample.java
+ CustomFunctionalInterfaceExample
+ Function3

@@ -31,3 +31,12 @@
 - 코틀린의 함수는 1급객체, Java의 함수는 1급객체가 아님
     - 파라미터로 함수를 할당할 수 없음
     - But Java 8에서 람다를 이용해 가능해짐
+    
+# 자바8 람다식, 함수형 인터페이스
+- Function<T,R>     .apply(), static.identity()
+- Consumer<T>       .accept()
+- Predicate<T>      .test()
+- Supplier<T>       .get()
+
+![img_1.png](img_1.png)
+- 사용자 설정 함수형 인터페이스시 @FunctionalInterface
