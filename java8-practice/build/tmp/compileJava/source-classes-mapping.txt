@@ -15,5 +15,6 @@ WhyJava8.java
 FunctionalInterfaceExamples.java
  FunctionalInterfaceExamples
 CustomFunctionalInterfaceExample.java
+ BigDecimalToCurrency
  CustomFunctionalInterfaceExample
  Function3

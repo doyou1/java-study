@@ -40,3 +40,10 @@
 
 ![img_1.png](img_1.png)
 - 사용자 설정 함수형 인터페이스시 @FunctionalInterface
+
+- 참고 : https://jsonobject.tistory.com/466
+# BigDecimal
+- BigDecimal은 Java 언어에서 숫자를 정밀하게 저장하고 표현할 수 있는 유일한 방법
+- 소수점을 저장할 수 있는 가장 크기가 큰 타입인 double은 소수점의 정밀도에 있어 한계가 있어 값이 유실될 수 있음
+- Java 언어에서 돈과 소수점을 다룬다면 BigDecimal은 선택이 아니라 필수이다.
+- BigDecimal의 유일한 단점은 느린 속ㄷ와 기본 타입보다 조금 불편한 사용법 뿐이다.
