@@ -17,4 +17,10 @@ FunctionalInterfaceExamples.java
 CustomFunctionalInterfaceExample.java
  BigDecimalToCurrency
  CustomFunctionalInterfaceExample
+ CustomFunctionalInterfaceExample$1
  Function3
+ InvalidBigDecimalToCurrency
+FunctionalInterfaceExamples2.java
+ DiscountProduct
+ FunctionalInterfaceExamples2
+ Product
