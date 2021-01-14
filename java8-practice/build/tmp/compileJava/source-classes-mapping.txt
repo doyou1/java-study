@@ -21,6 +21,8 @@ CustomFunctionalInterfaceExample.java
  Function3
  InvalidBigDecimalToCurrency
 FunctionalInterfaceExamples2.java
- DiscountProduct
  FunctionalInterfaceExamples2
- Product
+ FunctionalInterfaceExamples2$DiscountProduct
+ FunctionalInterfaceExamples2$Order
+ FunctionalInterfaceExamples2$OrderedItem
+ FunctionalInterfaceExamples2$Product
