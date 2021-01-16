@@ -26,3 +26,5 @@ FunctionalInterfaceExamples2.java
  FunctionalInterfaceExamples2$Order
  FunctionalInterfaceExamples2$OrderedItem
  FunctionalInterfaceExamples2$Product
+StreamPrelude.java
+ StreamPrelude
