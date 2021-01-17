@@ -28,3 +28,7 @@ FunctionalInterfaceExamples2.java
  FunctionalInterfaceExamples2$Product
 StreamPrelude.java
  StreamPrelude
+StreamExamples1.java
+ StreamExamples1
+StreamExamples2.java
+ StreamExamples2
