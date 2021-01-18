@@ -53,3 +53,12 @@
         1. Lazy
         2. Intermediate Operation Method
         3. Terminal Operation Method
+    - EX
+        stream.filter(i->i>10)      - Intermediate Operation Method
+                .map(i->i*2)        - Intermediate Operation Method
+                .findFirst();       - Terminal Operation Method
+        - Intermediate Operation Method는 Terminal Operation Method가 Invoke(호출, 발동)되기 전엔 실행되지 않음
+    
+    
+- 오토박싱, 언박싱 찾아보쟝, Integer == int의 문제점, identical을 확인하는 것과 memory reference를 확인하는 것의 차이
+    - StreamExample3

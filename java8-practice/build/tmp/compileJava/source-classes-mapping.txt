@@ -32,3 +32,5 @@ StreamExamples1.java
  StreamExamples1
 StreamExamples2.java
  StreamExamples2
+StreamExample3.java
+ StreamExample3
