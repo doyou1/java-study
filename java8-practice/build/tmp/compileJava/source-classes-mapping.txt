@@ -1,36 +1,55 @@
-OopAnotherExample.java
- Addition
- Calculation
- CalculatorService2
- Division
- Multiplication
- OopAnotherExample
- Subtraction
-OopAndFpExamples.java
- CalculatorService
- FpCalculatorService
- OopAndFpExamples
-WhyJava8.java
- WhyJava8
-FunctionalInterfaceExamples.java
- FunctionalInterfaceExamples
-CustomFunctionalInterfaceExample.java
- BigDecimalToCurrency
- CustomFunctionalInterfaceExample
- CustomFunctionalInterfaceExample$1
- Function3
- InvalidBigDecimalToCurrency
-FunctionalInterfaceExamples2.java
- FunctionalInterfaceExamples2
- FunctionalInterfaceExamples2$DiscountProduct
- FunctionalInterfaceExamples2$Order
- FunctionalInterfaceExamples2$OrderedItem
- FunctionalInterfaceExamples2$Product
-StreamPrelude.java
- StreamPrelude
-StreamExamples1.java
- StreamExamples1
-StreamExamples2.java
- StreamExamples2
-StreamExample3.java
- StreamExample3
+youtube_kevin/OopAnotherExample.java
+ youtube_kevin.Addition
+ youtube_kevin.Calculation
+ youtube_kevin.CalculatorService2
+ youtube_kevin.Division
+ youtube_kevin.Multiplication
+ youtube_kevin.OopAnotherExample
+ youtube_kevin.Subtraction
+modernjavainaction/chapter2/FilteringApples.java
+ modernjavainaction.chapter2.AppleGreenColorPredicate
+ modernjavainaction.chapter2.AppleHeavyWeightPredicate
+ modernjavainaction.chapter2.FilteringApples
+ modernjavainaction.chapter2.FilteringApples$1
+ modernjavainaction.chapter2.Predicate
+modernjavainaction/chapter2/Example.java
+ modernjavainaction.chapter2.Apple
+ modernjavainaction.chapter2.Color
+ modernjavainaction.chapter2.Example
+youtube_kevin/CustomFunctionalInterfaceExample.java
+ youtube_kevin.BigDecimalToCurrency
+ youtube_kevin.CustomFunctionalInterfaceExample
+ youtube_kevin.CustomFunctionalInterfaceExample$1
+ youtube_kevin.Function3
+ youtube_kevin.InvalidBigDecimalToCurrency
+youtube_kevin/StreamExamples1.java
+ youtube_kevin.StreamExamples1
+modernjavainaction/chapter2/Quiz2_1.java
+ modernjavainaction.chapter2.AppleFancyFormatter
+ modernjavainaction.chapter2.AppleFormatter
+ modernjavainaction.chapter2.AppleSimpleFormatter
+ modernjavainaction.chapter2.Quiz2_1
+youtube_kevin/StreamPrelude.java
+ youtube_kevin.StreamPrelude
+youtube_kevin/OopAndFpExamples.java
+ youtube_kevin.CalculatorService
+ youtube_kevin.FpCalculatorService
+ youtube_kevin.OopAndFpExamples
+youtube_kevin/WhyJava8.java
+ youtube_kevin.WhyJava8
+youtube_kevin/FunctionalInterfaceExamples.java
+ youtube_kevin.FunctionalInterfaceExamples
+youtube_kevin/StreamExample3.java
+ youtube_kevin.StreamExample3
+modernjavainaction/chapter2/ApplePredicate.java
+ modernjavainaction.chapter2.ApplePredicate
+youtube_kevin/StreamExamples2.java
+ youtube_kevin.StreamExamples2
+youtube_kevin/FunctionalInterfaceExamples2.java
+ youtube_kevin.FunctionalInterfaceExamples2
+ youtube_kevin.FunctionalInterfaceExamples2$DiscountProduct
+ youtube_kevin.FunctionalInterfaceExamples2$Order
+ youtube_kevin.FunctionalInterfaceExamples2$OrderedItem
+ youtube_kevin.FunctionalInterfaceExamples2$Product
+modernjavainaction/chapter2/Example2_4.java
+ modernjavainaction.chapter2.Example2_4

@@ -1,4 +1,6 @@
 import org.junit.Test;
+import youtube_kevin.Calculation;
+import youtube_kevin.Division;
 
 import static org.assertj.core.api.Assertions.*;
 
