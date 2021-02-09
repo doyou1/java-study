@@ -51,5 +51,24 @@ youtube_kevin/FunctionalInterfaceExamples2.java
  youtube_kevin.FunctionalInterfaceExamples2$Order
  youtube_kevin.FunctionalInterfaceExamples2$OrderedItem
  youtube_kevin.FunctionalInterfaceExamples2$Product
+modernjavainaction/chapter3/Example.java
+ modernjavainaction.chapter3.Apple
+ modernjavainaction.chapter3.Example
+ modernjavainaction.chapter3.Example$1
 modernjavainaction/chapter2/Example2_4.java
  modernjavainaction.chapter2.Example2_4
+modernjavainaction/chapter3/BufferedReaderProcessor.java
+ modernjavainaction.chapter3.BufferedReaderProcessor
+modernjavainaction/chapter3/ProcessFileExample.java
+ modernjavainaction.chapter3.ProcessFileExample
+modernjavainaction/chapter3/ConsumerExample.java
+ modernjavainaction.chapter3.Consumer
+ modernjavainaction.chapter3.ConsumerExample
+modernjavainaction/chapter3/PredicateExample.java
+ modernjavainaction.chapter3.Predicate
+ modernjavainaction.chapter3.PredicateExample
+modernjavainaction/chapter3/SupplierExample.java
+ modernjavainaction.chapter3.SupplierExample
+modernjavainaction/chapter3/FunctionExample.java
+ modernjavainaction.chapter3.Function
+ modernjavainaction.chapter3.FunctionExample
